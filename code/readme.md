@@ -2,31 +2,31 @@
 
 In this project, I implemented spark code, GraphX code to extract top pages in wikipedia. And found top 100 universities.
 
-### Dataset
+# Dataset
 
 freebase-wex-2009-01-12-articles.tsv
 
 You can get the data by accessing aws
 
-### Platform
+# Platform
 
 Google Cloud Engine and AWS
 
-### Code
+# Code
 
 ## Description
 
 In each file, you can find .scala file with .sbt file. The former one is original code and the latter build script.
 
-# spark
+### spark
 
 This code could get top pages using pure spark by plugging PageRank algorithm. 
 
-# graphx
+### graphx
 
 This code could get top pages using graphx by plugging PageRank algorithm. 
 
-# universities
+### universities
 
 This code could get top universities using pure spark by plugging PageRank algorithm. 
 
